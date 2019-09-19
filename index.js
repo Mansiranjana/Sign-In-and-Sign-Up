@@ -10,7 +10,7 @@ const app=express();
 //connect to mongodb
 
 mongoose.connect('mongodb://localhost/employee');
-mongoose.Promise=global.Promise;
+
 
 
 app.use(bodyParser.json());
